@@ -41,7 +41,7 @@ const NewSmurfForm = props => {
                     onChange={handleChanges}
                 />
                 <button 
-                    onClick={() => addSmurf(newSmurf)}
+                    onClick={() => addSmurf}
                 >Add Smurf</button>
             </form>
         </div>
